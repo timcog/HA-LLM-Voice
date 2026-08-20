@@ -6,7 +6,7 @@ set -euo pipefail
 MODEL="${OLLAMA_MODEL:-llama3.1:8b-instruct-q4_K_M}"
 
 apt update && apt upgrade -y
-apt install -y curl
+apt install -y curl zstd
 curl -fsSL https://ollama.com/install.sh | sh
 systemctl enable ollama
 
