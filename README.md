@@ -3,7 +3,7 @@
 Local voice assistant stack for Home Assistant: Ollama (LLM) + Whisper (STT) + Piper (TTS),
 running in two Proxmox LXC containers alongside an existing HA instance.
 
-Target hardware: MINISFORUM UM773 Lite (Ryzen 7 7735HS, 32GB RAM), Proxmox host.
+Target hardware: MINISFORUM UM773 Lite (Ryzen 7 7735HS, 32GB RAM), Proxmox host at `192.168.68.240`.
 HA instance: `192.168.0.211`.
 
 ```
